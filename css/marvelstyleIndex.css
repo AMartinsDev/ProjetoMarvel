@@ -1,0 +1,71 @@
+html,
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: none;
+}
+
+
+li {
+    padding: 6px 0;
+}
+
+a {
+    position: relative;
+    display: block;
+    padding: 10px 0;
+    font-family: bebas;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url(../img/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 { font-family: bebas; 
+    font-size: 130px; 
+    font-style: normal; 
+    font-weight: 300; 
+    line-height: 120px; 
+    color: white; 
+    letter-spacing: 10px; 
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+}
+
+
+.containericone{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 20px;
+    padding-bottom: 20px;
+}
+
+.containermenu{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    padding-right: 54px;
+}
+
+

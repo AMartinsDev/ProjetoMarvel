@@ -26,4 +26,4 @@ function apaga3() {
     document.getElementById("logo").style.display="block";
  }
 
- /*Todos os parametros dos getelementsids, são da página "sobre.html"
+ /*Todos os parametros dos getelementsids, são da página "sobre.html"*/

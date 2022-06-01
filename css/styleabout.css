@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+/* Estilo em css utilizado na construção da página "sobre.html", foi inspirado no seguinte vídeo de youtube: 
+https://www.youtube.com/watch?v=E5PO4yEwJI4;*/
+/*Nenhuma funcionalidade extra adicionada, apenas mudei o background e utilizei novas cores para ficarem
+de acordo com o meu site*/
+
 *{
 	margin: 0;
 	padding: 0;

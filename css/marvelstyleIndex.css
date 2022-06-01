@@ -1,5 +1,11 @@
 html,
 
+/* Este documento gera o estilo em css da páginas principal (index.html).
+*/
+
+
+/*ul e li estão responsáveis pelo posicionamento da lista de menu, retirei o estilo padrão de lista e deixei como uma coluna.
+*/
 ul {
     display: flex;
     flex-direction: column;
@@ -7,11 +13,13 @@ ul {
     list-style-type: none;
 }
 
-
 li {
     padding: 6px 0;
 }
 
+
+/*Todas as anchors possuem cor branca, sem decoração, tamanho maiusculo e estão centralizadas na tela, o padding foi usado para 
+alguns ajustes desse tipo*/
 a {
     position: relative;
     display: block;
@@ -23,6 +31,8 @@ a {
     text-transform: uppercase;
 }
 
+/*A imagem de fundo do index.html, sua posição e como ela se comporta, alguns trechos de funções, retirei da internet para conseguir
+deixar o background como eu queria*/
 body{
     background-image: url(../img/capa.jpg);
     background-repeat: no-repeat;
@@ -36,6 +46,7 @@ body{
     overflow: hidden;
 }
 
+/* Design Do H1*/
 h1 { font-family: bebas; 
     font-size: 130px; 
     font-style: normal; 
@@ -49,7 +60,7 @@ h1 { font-family: bebas;
     background-color: red;
 }
 
-
+/*alinhamento e tamanho dos icones linkedIn e GitHub*/
 .containericone{
     align-items: center;
     text-align: center;
@@ -59,6 +70,7 @@ h1 { font-family: bebas;
     padding-bottom: 20px;
 }
 
+/* alinhamento e tamanho dos itens do menu*/
 .containermenu{
     display: flex;
     justify-content: center;

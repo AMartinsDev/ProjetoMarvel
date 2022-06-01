@@ -1,7 +1,10 @@
 # ProjetoMarvel
 
-# Autor: Arthur Silva Martins, 2022
-# JAVA-ENTRY POINT 2022 BRQ
+
+## Autor: Arthur Silva Martins, 2022
+## JAVA-ENTRY POINT 2022 BRQ
+
+## O site possui o resumo de alguns dos principais filmes e heróis do universo cinematográfico da Marvel. 
 
 ## O projeto neste repositório, visa demonstrar um pouco do conhecimento adquirido ao longo das aulas de Front-End da turma 2022 do programa JAVA-ENTRY POINT promovido pela BRQ Solutions. Aulas ministradas pelo professor Cid Andradre.
 

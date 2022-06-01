@@ -5,18 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sobre o Projeto</title>
 	<link href="css/styleabout.css" rel="stylesheet" />
+	<link rel="icon" type="image/x-icon" href="img/avengers.png" />
+	<script src="js/scripts.js"></script>
 
 </head>
 
 <body>
 
 <div class="container">
-	<h1>SOBRE O PROJETO</h1>
-	<h2>Este projeto foi feito com o intuito de demonstrar um pouco das nossas habilidades de programação front-end com o uso de HTML, CSS E JAVASCRIPT.</h2>
+	<h1 id="texto1">SOBRE O PROJETO</h1>
+	<h2 id="texto2">Este projeto foi feito com o intuito de demonstrar um pouco das nossas habilidades de programação front-end com o uso de HTML, CSS E JAVASCRIPT.</h2>
 	<div class="image">
-		<img src="img/marvel-logo.png" width="200" height="200">
+		<img src="img/marvel-logo.png" style="display: none;" id="logo" width="200" height="150">
+		<p><button type="button" onclick="apaga(),apaga2(),apaga3(),exibeLogo()">CliqueAqui</button></p>
 	</div>
-	<p>
+	<p id="texto3">
 		SITE SEM FINS COMERCIAIS OU LUCRATIVOS, USADO APENAS PARA DEMONSTRAR CONHECIMENTO DURANTE O CURSO JAVA-ENTRY POINT 2021.
 	</p>
 	<a href="index.html" class="btn">Home</a>
